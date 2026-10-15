@@ -1,35 +1,66 @@
-# Jev context-selection screening
+# The boltons pilot: can search solve the task without AI?
 
-No OpenAI requests are implemented. This is a free-first feasibility screen, not a code-generation benchmark or evidence that Jev helps.
+This page explains the oldest part of Experiment 1. The word **legacy** in the filename means “kept from an earlier stage.” This explanation has been rewritten for clarity; the archived program, inputs, and results are unchanged.
 
-## Current result
+For the full early-trial overview, read [Experiment 1's main guide](README.md).
 
-Local retrieval finds a historically changed source file first in **3/3 cases**. No Jev or OpenAI calls were made. The optional Jev mode automatically stops for this perfect-baseline sample, because its top-one accuracy cannot improve.
+## The question
 
-## Real cases and provenance
+Given the description of a known boltons problem, can a simple search identify a file that was changed by its historical fix?
 
-- [PR 475: Unicode line separators](https://github.com/mahmoud/boltons/pull/475)
-- [PR 467: zero interquartile range in histograms](https://github.com/mahmoud/boltons/pull/467)
-- [PR 464: binary JSONL seeking](https://github.com/mahmoud/boltons/pull/464)
+[boltons](https://github.com/mahmoud/boltons) is a public collection of Python utilities. Three already completed changes supplied these cases:
 
-These three recent isolated fixes were chosen before model evaluation for their concrete descriptions and small source changes. This is a convenience sample, not random or representative. They are retrospective merged PR descriptions, including proposed solutions, **not fresh unsolved issues**. They cannot establish code-writing ability.
+| Historical change | Plain-language problem |
+|---|---|
+| [PR 475](https://github.com/mahmoud/boltons/pull/475) | Unicode line separators caused incorrect text splitting |
+| [PR 467](https://github.com/mahmoud/boltons/pull/467) | Automatic histogram calculations failed for some repeated values |
+| [PR 464](https://github.com/mahmoud/boltons/pull/464) | Seeking within a binary JSONL stream used the wrong newline type |
 
-`cases.json` retains the exact original titles and descriptions, URLs, fixed revisions, first-parent buggy revisions and historical changed source files. `data/` contains the library modules from each pre-fix revision. The upstream BSD license is retained. No bug was inserted. No source names, function names, or explanatory details were removed to make search harder. Initial title-only exploration found 2/3; adding the full available descriptions yielded 3/3. The full descriptions are the final baseline and Jev input. No model calls influenced case selection or retrieval settings.
+A PR, or pull request, is a proposed change to a project. These descriptions came from merged changes and included solution information. They were a small convenience sample, not fresh unsolved problems or randomly selected test cases.
 
-Retrieval is local BM25-style keyword search over all top-level Python library modules, using file names and complete source. Jev, if a future predeclared sample warrants it, chooses from the same top five candidates using bounded matching excerpts. Historical changed files are used only for scoring, never in Jev's input. A hit means overlap with a changed source file; that is only a localization proxy, not proof that context is sufficient or a fix is correct. Module-level tests are not executed in this context-only screen.
+## What the program does
 
-## Usage
+1. Read the original descriptions from `cases.json`.
+2. Read the source modules from the revision before each fix, stored in `data/`.
+3. Rank modules by matching words in the description and source.
+4. Take the five highest-ranked candidates.
+5. Score the first candidate against the historical changed-file label.
+6. If Jev was requested, first check whether it could improve the measured score. On this sample, search is already perfect, so the program makes no Jev request.
+
+Earlier title-only exploration found two of the three files first. Using the complete available descriptions found all three. The final saved baseline uses those complete descriptions. This is a development history, not an independent held-out evaluation of both search settings.
+
+## Recorded result
+
+**Search scored 3/3. Jev calls: zero. OpenAI calls: zero.**
+
+This part's `screen.mjs` has no OpenAI integration. That statement applies only to this boltons screen; a separate `compare.mjs` in Experiment 1 does include OpenAI.
+
+The result supports stopping paid selection tests on this small sample. It does not show that Jev improved anything, wrote code, or fixed the three bugs.
+
+## Files used by this screen
+
+| File | Purpose |
+|---|---|
+| `screen.mjs` | Search, scoring, and the optional Jev path with a perfect-baseline stop |
+| `verify.mjs` | Input checks and a test that unexpected network calls do not occur on this stop path |
+| `cases.json` — local only | Exact case descriptions, upstream URLs, revisions, and expected changed files |
+| `data/464.json`, `data/467.json`, `data/475.json` — local only | File names and source text from each pre-fix snapshot |
+| `results/baseline.json` — local only | Detailed local search results |
+| `results/prior-spending.json` — local only | Earlier accounting history; not new spending or a live balance |
+| `LICENSE.boltons` | Original attribution/license notice |
+
+The public [pilot-results file](../reports/experiment-1/pilots.json) gives the saved outcome without publishing the complete snapshots or accounting history.
+
+## Running checks
+
+Fresh clones do not contain these old snapshots. Read the public results, or use Experiments 2/3 for automatic preparation. On the original local checkout, run the project's offline checks from the top-level folder:
 
 ```powershell
-cd D:\Projects\Jev-testing
-node screen.mjs
-node screen.mjs --jev
+node .\tools\verify-project.mjs
 ```
 
-The first command is always free. With the current sample the second command also makes **zero API calls**, printing the perfect-baseline stop reason. No keys are needed for either current path. A future non-perfect sample would require TYPESAFE_API_KEY and could make up to one Jev call per case, with no retries or automatic repeated runs. Jev has separate billing. Do not expand the sample or rerun paid screening blindly.
+For a developer investigating the historical script, `node .\experiment-1\screen.mjs` reruns local search and writes its local baseline report. Adding `--jev` still makes zero provider calls on this exact perfect-baseline sample. If somebody changes the inputs so that search is no longer perfect, the optional path can make paid Jev calls; it is not a general promise that `--jev` is free.
 
-Results are saved in `results/baseline.json`. Previous conservative OpenAI accounting ($0.1350875) is retained in `results/prior-spending.json`; it is not new spending or a live balance. The old website, code-fix benchmark and experiment files were removed as requested.
+## Lesson for a different workflow
 
-## Next decision
-
-Stop paid testing on this sample. It provides no localization opportunity for Jev. Do not remove useful report details or worsen retrieval to create one. A future study should preselect independently reported, unresolved-at-the-snapshot bugs in a larger repository, preserve complete reports, compare against a competent baseline, retain all cases, and only proceed to coding evaluation on fresh held-out bugs if localization improves. Even then, a positive result is not guaranteed.
+First ask whether a simple rule or search already solves your evaluation examples. Only then measure whether an AI selector improves a clearly defined result. Use fresh examples for later validation and retain failures; do not remove useful evidence or weaken the baseline to create an apparent benefit.
