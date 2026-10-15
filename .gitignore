@@ -1,0 +1,27 @@
+# Secrets and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+*.tmp
+*.lock
+
+# Downloaded upstream material and private/raw run artifacts
+**/cache/
+**/data/
+**/results/
+**/raw.json
+**/dry-run-requests.json
+**/labels.json
+experiment-1/cases.json
+experiment-1/pytest-screen/*.json
+experiment-1/package.legacy.json
+
+# Explicitly curated public manifests/summaries live under reports/, not data/results.

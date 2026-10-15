@@ -1,0 +1,636 @@
+[
+  {
+    "id": "pallets__flask-4992",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 21,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "psf__requests-1963",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 73,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-23964",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 240,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "scikit-learn__scikit-learn-14983",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 237,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sklearn/model_selection/_split.py",
+        "setup.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-18057",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 708,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sympy/parsing/sympy_parser.py",
+        "sympy/core/sympify.py",
+        "sympy/core/expr.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-21847",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 799,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sympy/polys/orderings.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-18869",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 239,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-15498",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 853,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-24213",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 815,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sympy/physics/units/systems/si.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-18087",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 708,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pytest-dev__pytest-5227",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 65,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-14238",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 848,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/db/models/options.py",
+        "django/apps/config.py",
+        "django/db/models/base.py",
+        "django/core/management/__init__.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-17139",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 687,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sympy/simplify/fu.py",
+        "sympy/simplify/trigsimp.py",
+        "sympy/core/expr.py",
+        "sympy/strategies/core.py",
+        "sympy/simplify/simplify.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pylint-dev__pylint-7228",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 183,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "pylint/config/arguments_manager.py",
+        "pylint/config/config_initialization.py",
+        "pylint/lint/run.py",
+        "pylint/__init__.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-12915",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 836,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/contrib/staticfiles/handlers.py",
+        "django/core/handlers/asgi.py",
+        "django/core/handlers/base.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-16046",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 855,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "scikit-learn__scikit-learn-14087",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 229,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sklearn/linear_model/logistic.py",
+        "setup.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-12983",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 825,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/utils/text.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-11742",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 819,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-19487",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 728,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-22840",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 814,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-17655",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 699,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sympy/geometry/point.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-8474",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 182,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-20322",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 749,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-12470",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 822,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pytest-dev__pytest-8906",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 79,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "scikit-learn__scikit-learn-11281",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 234,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-14667",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 848,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-21627",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 791,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-16910",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 859,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-26011",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 251,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "lib/matplotlib/axes/_base.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-14016",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 847,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pytest-dev__pytest-7220",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 72,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "scikit-learn__scikit-learn-15535",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 238,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-21055",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 784,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-18532",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 714,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-15789",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 853,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/utils/html.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-16139",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 855,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-13964",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 847,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "psf__requests-2148",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 80,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "requests/models.py",
+        "requests/packages/urllib3/response.py",
+        "requests/exceptions.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-13031",
+    "partition": "smoke",
+    "status": "ready",
+    "sourceFiles": 568,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-13971",
+    "partition": "smoke",
+    "status": "ready",
+    "sourceFiles": 609,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  }
+]

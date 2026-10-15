@@ -1,0 +1,58 @@
+{
+  "mode": "full",
+  "total": 40,
+  "manifestHash": "021b9c967012d570bdc2a6e47d4ddb9530c9cc04c20a31050e7780dd3e14454c",
+  "metric": "top-one changed-production-file overlap; not patch correctness",
+  "providers": {
+    "jev": {
+      "hits": 28,
+      "denominator": 40,
+      "accuracy": 0.7,
+      "validResponses": 40,
+      "statusCounts": {
+        "ok": 40
+      },
+      "successfulLatencyMs": {
+        "mean": 270.16991249999967,
+        "median": 191.06745000000228,
+        "p95": 558.0524000000005
+      }
+    },
+    "openai": {
+      "hits": 30,
+      "denominator": 40,
+      "accuracy": 0.75,
+      "validResponses": 40,
+      "statusCounts": {
+        "ok": 40
+      },
+      "successfulLatencyMs": {
+        "mean": 2971.592389999999,
+        "median": 2490.5055500000017,
+        "p95": 5132.6194
+      }
+    }
+  },
+  "pairedLatency": {
+    "count": 40,
+    "openaiOverJevRatioOfMeans": 10.998976024023412
+  },
+  "retrieval": {
+    "tasks": 40,
+    "referenceCandidateHits": 31,
+    "coverage": 0.775
+  },
+  "conditionalAccuracy": {
+    "jev": {
+      "hits": 28,
+      "denominator": 31,
+      "accuracy": 0.9032258064516129
+    },
+    "openai": {
+      "hits": 30,
+      "denominator": 31,
+      "accuracy": 0.967741935483871
+    }
+  },
+  "note": "Overall accuracy is primary; conditional accuracy diagnoses retrieval. Different fresh tasks mean changes from Experiment 2 cannot be attributed solely to retrieval."
+}

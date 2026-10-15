@@ -1,0 +1,385 @@
+{
+  "config": {
+    "version": 3,
+    "count": 42,
+    "fullCount": 40,
+    "smokeCount": 2,
+    "seed": "jev-experiment-3-v1",
+    "candidates": 5,
+    "snippetChars": 3000,
+    "timeoutMs": 60000,
+    "openaiModel": "gpt-6-astra",
+    "jevModel": "jev-latest",
+    "instruction": "Select the source file most relevant to investigating and fixing the reported behavior. The snippets may be incomplete.",
+    "retrieval": {
+      "method": "BM25 on files and overlapping passages; explicit issue path/module boost; no labels",
+      "k1": 1.2,
+      "b": 0.75,
+      "fileWeight": 0.35,
+      "passageWeight": 0.65,
+      "titleWeight": 2,
+      "exactPathBoost": 20,
+      "basenameBoost": 4,
+      "passageLines": 60,
+      "strideLines": 30,
+      "snippetPassages": 2,
+      "tieBreak": "ASCII source path"
+    },
+    "metric": "top-one changed-production-file overlap; not patch correctness",
+    "design": "42 seeded tasks excluding Experiments 1 and 2; first 40 full, last 2 smoke; no overlap; no tuning after coverage audit"
+  },
+  "source": {
+    "dataset": "princeton-nlp/SWE-bench_Lite",
+    "split": "test",
+    "revision": "6ec7bb89b9342f664a54a6e0a6ea6501d3437cc2",
+    "acquisition": "Read-only reuse of verified Experiment 2 official dataset snapshot",
+    "previousManifestHash": "492fa53636f30122afffa0d6a7b43ba7c2d5454460d462a8b994ce75e6f7f949"
+  },
+  "datasetHash": "faeabdbf2e822d73ce46de467b2fd3487f91c0498843f7ea88331a409cd611ae",
+  "excluded": [
+    "pytest-dev__pytest-5262",
+    "pytest-dev__pytest-5631",
+    "pytest-dev__pytest-5787",
+    "pytest-dev__pytest-5809",
+    "pytest-dev__pytest-5840",
+    "matplotlib__matplotlib-23987",
+    "matplotlib__matplotlib-23562",
+    "django__django-17087",
+    "django__django-13315",
+    "scikit-learn__scikit-learn-10297",
+    "sympy__sympy-24066",
+    "django__django-10924",
+    "django__django-13028",
+    "astropy__astropy-14182",
+    "sympy__sympy-13773",
+    "sphinx-doc__sphinx-8435",
+    "sympy__sympy-20154",
+    "django__django-15213",
+    "sphinx-doc__sphinx-8713",
+    "sphinx-doc__sphinx-7738",
+    "sympy__sympy-13895",
+    "sphinx-doc__sphinx-8506",
+    "astropy__astropy-14365",
+    "sympy__sympy-18835",
+    "pydata__xarray-3364",
+    "pytest-dev__pytest-5692",
+    "astropy__astropy-7746",
+    "django__django-13448",
+    "matplotlib__matplotlib-24334",
+    "sympy__sympy-16792",
+    "sphinx-doc__sphinx-10325",
+    "django__django-12308",
+    "sphinx-doc__sphinx-10451",
+    "django__django-13590",
+    "django__django-16527",
+    "django__django-12497",
+    "pylint-dev__pylint-7080",
+    "django__django-10914",
+    "matplotlib__matplotlib-23476",
+    "sympy__sympy-15011",
+    "django__django-16229",
+    "matplotlib__matplotlib-25079",
+    "pylint-dev__pylint-5859",
+    "matplotlib__matplotlib-22711",
+    "django__django-13220"
+  ],
+  "previousHash": "c1c3352bbeefe7cfe6aeabe5322550d37612c9570a0fe5a0ec62cbf29bf1493e",
+  "protocolHash": "aeb7ecea8ff91b270bcc6a41a19f054e49c7a312673f0a9b7b5c30dc8925cdf9",
+  "createdAt": "2026-10-15T07:34:45.373Z",
+  "tasks": [
+    {
+      "id": "pallets__flask-4992",
+      "partition": "full",
+      "repo": "pallets/flask",
+      "baseCommit": "4c288bc97ea371817199908d0d9b12de9dae327e",
+      "issueHash": "54baa9ef6e844bb0fc6f9c072305b9cdd4563c994910c2aea28b21b351c3c17c"
+    },
+    {
+      "id": "psf__requests-1963",
+      "partition": "full",
+      "repo": "psf/requests",
+      "baseCommit": "110048f9837f8441ea536804115e80b69f400277",
+      "issueHash": "ab31a283ce6fd03aff660d11dda4d5773faa92984ecdd44e97d65c1f8774098c"
+    },
+    {
+      "id": "matplotlib__matplotlib-23964",
+      "partition": "full",
+      "repo": "matplotlib/matplotlib",
+      "baseCommit": "269c0b94b4fcf8b1135011c1556eac29dc09de15",
+      "issueHash": "0f8c32f683ad268ccbc81029dfd1a580803a56fea240665e05666d1b12f6dd2f"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14983",
+      "partition": "full",
+      "repo": "scikit-learn/scikit-learn",
+      "baseCommit": "06632c0d185128a53c57ccc73b25b6408e90bb89",
+      "issueHash": "ca3d0c700c131e4b74bc7b9370f8e9c38093b25298dc682251e7c5185877f222"
+    },
+    {
+      "id": "sympy__sympy-18057",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "62000f37b8821573ba00280524ffb4ac4a380875",
+      "issueHash": "e6123af2c04c44fa1728b05a34d72f619b8fd01f33b20afef9a5b3f19a4620f0"
+    },
+    {
+      "id": "sympy__sympy-21847",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "d9b18c518d64d0ebe8e35a98c2fb519938b9b151",
+      "issueHash": "94d91698afcd1df16f19769e6eb73afc4229159f92d2f0fcaa6fa9cf41116fdd"
+    },
+    {
+      "id": "matplotlib__matplotlib-18869",
+      "partition": "full",
+      "repo": "matplotlib/matplotlib",
+      "baseCommit": "b7d05919865fc0c37a0164cf467d5d5513bd0ede",
+      "issueHash": "769fa1062399c1467fe704f953f0ab209febb5ea1b15e0854f84181f8924eba3"
+    },
+    {
+      "id": "django__django-15498",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "d90e34c61b27fba2527834806639eebbcfab9631",
+      "issueHash": "0ddde8ac9b3c8e785d0503528c1ccd39c907d10342598647467cbb2755df4473"
+    },
+    {
+      "id": "sympy__sympy-24213",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "e8c22f6eac7314be8d92590bfff92ced79ee03e2",
+      "issueHash": "643ce391df54dc5676bb5ccb2bc1f1a1963be8b0f54cee9bc816a1fe1ca2310b"
+    },
+    {
+      "id": "sympy__sympy-18087",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "9da013ad0ddc3cd96fe505f2e47c63e372040916",
+      "issueHash": "ef91a6aa02a71ce2cc641835d084e581d6c0687636cc256d33cc91c14f8890be"
+    },
+    {
+      "id": "pytest-dev__pytest-5227",
+      "partition": "full",
+      "repo": "pytest-dev/pytest",
+      "baseCommit": "2051e30b9b596e944524ccb787ed20f9f5be93e3",
+      "issueHash": "3a2ff514af781d2bbeeba733d6cc9ee99766a5c70718f731e0cd2ea4048ad26c"
+    },
+    {
+      "id": "django__django-14238",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "30e123ed351317b7527f632b3b7dc4e81e850449",
+      "issueHash": "ee71cd2bf018f9b6642fe511b99cd64cebaf60a85abc709d87d65ee2c97a2ffd"
+    },
+    {
+      "id": "sympy__sympy-17139",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "1d3327b8e90a186df6972991963a5ae87053259d",
+      "issueHash": "17e532f00dac2a0e2aae1ca47a21c4be3cc3d4686da16dfc58ed0d69f6c02334"
+    },
+    {
+      "id": "pylint-dev__pylint-7228",
+      "partition": "full",
+      "repo": "pylint-dev/pylint",
+      "baseCommit": "d597f252915ddcaaa15ccdfcb35670152cb83587",
+      "issueHash": "9aa65f8c494b6db880f3282fe58f3c68f077e7ae18d3b0933e34f394916723c9"
+    },
+    {
+      "id": "django__django-12915",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "4652f1f0aa459a7b980441d629648707c32e36bf",
+      "issueHash": "0fb5ffccb540c12f68ebd90d1a59800f8ca61f1dd0a562b42625e524ea78b19b"
+    },
+    {
+      "id": "django__django-16046",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "ec13e801b820614ff374cb0046092caab8d67249",
+      "issueHash": "90c361cbd0cd0fe98c3cf5770afb12f361163bfb4c867221db059bbf3c5bb7cf"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14087",
+      "partition": "full",
+      "repo": "scikit-learn/scikit-learn",
+      "baseCommit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+      "issueHash": "0d731842a870c18ba49de0ee6ce5c623522f0a0af328adc9415addcc07f5aae1"
+    },
+    {
+      "id": "django__django-12983",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "3bc4240d979812bd11365ede04c028ea13fdc8c6",
+      "issueHash": "ca1a9bcb7cc171c0c3b552c22d9265870babb2138c29532c011af17b8934725b"
+    },
+    {
+      "id": "django__django-11742",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "fee75d2aed4e58ada6567c464cfd22e89dc65f4a",
+      "issueHash": "cd19e430f26bde8a52d33eb4f062a1bca799b9b7ceb64de7d037f9b8d099d9f2"
+    },
+    {
+      "id": "sympy__sympy-19487",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "25fbcce5b1a4c7e3956e6062930f4a44ce95a632",
+      "issueHash": "a2597649f343d4b30a4839c66828156a1c941bf7e4879a20ea72d2dd87004d34"
+    },
+    {
+      "id": "sympy__sympy-22840",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "d822fcba181155b85ff2b29fe525adbafb22b448",
+      "issueHash": "6722c7125fa55203303dc7fb4bf053d1626adadccd5eb32bc782345f881f2aa3"
+    },
+    {
+      "id": "sympy__sympy-17655",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "f5e965947af2410ded92cfad987aaf45262ea434",
+      "issueHash": "933042963b8cdfbe2ba70d5a221c3a40e00b60595f5b865417d4494c0b566af0"
+    },
+    {
+      "id": "sphinx-doc__sphinx-8474",
+      "partition": "full",
+      "repo": "sphinx-doc/sphinx",
+      "baseCommit": "3ea1ec84cc610f7a9f4f6b354e264565254923ff",
+      "issueHash": "02a5fc64caf66ab2003d92c2511fdbaf84baa5d8f55a66cd623afd026e7808ba"
+    },
+    {
+      "id": "sympy__sympy-20322",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "ab864967e71c950a15771bb6c3723636026ba876",
+      "issueHash": "5a69447265f953407032672d66a3aecc9d5bb108a32faf21cfb17c602ff0edbd"
+    },
+    {
+      "id": "django__django-12470",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "142ab6846ac09d6d401e26fc8b6b988a583ac0f5",
+      "issueHash": "9fb9319ade14e93151a5b77fefc11c795d66333b7d3dfdb9adcdadf345b8d933"
+    },
+    {
+      "id": "pytest-dev__pytest-8906",
+      "partition": "full",
+      "repo": "pytest-dev/pytest",
+      "baseCommit": "69356d20cfee9a81972dcbf93d8caf9eabe113e8",
+      "issueHash": "47ea4dd23f48fbc0b6d2ef54cea7796d3bc7456d52c5a93be26824b9c1a81d70"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-11281",
+      "partition": "full",
+      "repo": "scikit-learn/scikit-learn",
+      "baseCommit": "4143356c3c51831300789e4fdf795d83716dbab6",
+      "issueHash": "59d311777619ca7bc26885ac39bf12eb54acd85c817f50ec747a84151a0d532f"
+    },
+    {
+      "id": "django__django-14667",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "6a970a8b4600eb91be25f38caed0a52269d6303d",
+      "issueHash": "a11da7c0f718af507c7d7706e3f0f6f49ad16ffbb71c5e9fa5d11b2aea3e63d1"
+    },
+    {
+      "id": "sympy__sympy-21627",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "126f80578140e752ad5135aac77b8ff887eede3e",
+      "issueHash": "9abe4e85d1dd0a792dadfa01b6202609756fdc50e65c21b957fe8b7a0ce9fa0f"
+    },
+    {
+      "id": "django__django-16910",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "4142739af1cda53581af4169dbe16d6cd5e26948",
+      "issueHash": "62fd31d8fe210c4b80b8bf16bb3535710d9eed13f6ebb545fdd07fe99074972a"
+    },
+    {
+      "id": "matplotlib__matplotlib-26011",
+      "partition": "full",
+      "repo": "matplotlib/matplotlib",
+      "baseCommit": "00afcc0c6d4d2e4390338127f05b8f4fdb4e7087",
+      "issueHash": "3458a32b81335fb9fa0d8fb51443fa3f9276f8d67f8805ad5f16d1012f21efad"
+    },
+    {
+      "id": "django__django-14016",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "1710cdbe79c90665046034fe1700933d038d90ad",
+      "issueHash": "21226ba4f63609002baa91691d3f8adf826911ab2752c27ffc2fa3d37c99d9a4"
+    },
+    {
+      "id": "pytest-dev__pytest-7220",
+      "partition": "full",
+      "repo": "pytest-dev/pytest",
+      "baseCommit": "56bf819c2f4eaf8b36bd8c42c06bb59d5a3bfc0f",
+      "issueHash": "a4106396b6e1d34ae148b176a00895e7a24a1ff2a047646606f748e313ce48e1"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-15535",
+      "partition": "full",
+      "repo": "scikit-learn/scikit-learn",
+      "baseCommit": "70b0ddea992c01df1a41588fa9e2d130fb6b13f8",
+      "issueHash": "3f7421a2781fd3175d4f3c277508cd01dd8e4cacf2c298f6c61d17fee68ca160"
+    },
+    {
+      "id": "sympy__sympy-21055",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "748ce73479ee2cd5c861431091001cc18943c735",
+      "issueHash": "5fd224c389e80da161fb130b1b25f5c0b02b9f1741ea95a46feb60978e94f08b"
+    },
+    {
+      "id": "sympy__sympy-18532",
+      "partition": "full",
+      "repo": "sympy/sympy",
+      "baseCommit": "74227f900b05009d4eed62e34a166228788a32ca",
+      "issueHash": "ea8ba9c6ef25373f9d6955ab42298223c99634fa3d8a30ca115caf37564ed3a3"
+    },
+    {
+      "id": "django__django-15789",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "d4d5427571b4bf3a21c902276c2a00215c2a37cc",
+      "issueHash": "1d357d155a997919c3d2e497b2285b3772c25312a58669ca9572ac26f126d7a0"
+    },
+    {
+      "id": "django__django-16139",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "d559cb02da30f74debbb1fc3a46de0df134d2d80",
+      "issueHash": "b995147ec63f69ca6a39f0fdbf6e8d9f5647458bc7e76a693157834c38435ec2"
+    },
+    {
+      "id": "django__django-13964",
+      "partition": "full",
+      "repo": "django/django",
+      "baseCommit": "f39634ff229887bf7790c069d0c411b38494ca38",
+      "issueHash": "d0a164326a7b3fd89b9236e331075a4b9dd8285ea90f5757ea056d87737020c3"
+    },
+    {
+      "id": "psf__requests-2148",
+      "partition": "full",
+      "repo": "psf/requests",
+      "baseCommit": "fe693c492242ae532211e0c173324f09ca8cf227",
+      "issueHash": "68364fcb5e168c51619a74fe0026d874a7f62dda4c796e61c9f9a9c808c56a6d"
+    },
+    {
+      "id": "sympy__sympy-13031",
+      "partition": "smoke",
+      "repo": "sympy/sympy",
+      "baseCommit": "2dfa7457f20ee187fbb09b5b6a1631da4458388c",
+      "issueHash": "5d95a063a1ada8b9273255940d122605d87ea3ab2aa27f524725442be780b5c6"
+    },
+    {
+      "id": "sympy__sympy-13971",
+      "partition": "smoke",
+      "repo": "sympy/sympy",
+      "baseCommit": "84c125972ad535b2dfb245f8d311d347b45e5b8a",
+      "issueHash": "01e4d1009db0c98dd67d36f71eb5fc7b9719671213b2e0ec4cac2653d7cb43c9"
+    }
+  ]
+}

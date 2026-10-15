@@ -1,0 +1,67 @@
+{
+  "boltons": {
+    "tasks": 3,
+    "hits": 3,
+    "providerCalls": 0
+  },
+  "pytest": {
+    "tasks": 5,
+    "localBaselineHits": 3,
+    "jevHits": 4,
+    "jevAttempts": 5,
+    "rows": [
+      {
+        "id": "pytest-dev__pytest-5262",
+        "status": "completed",
+        "file": "src/_pytest/capture.py",
+        "hit": true,
+        "latencyMs": 361.98030000000006
+      },
+      {
+        "id": "pytest-dev__pytest-5631",
+        "status": "completed",
+        "file": "src/_pytest/compat.py",
+        "hit": true,
+        "latencyMs": 173.23800000000006
+      },
+      {
+        "id": "pytest-dev__pytest-5787",
+        "status": "completed",
+        "file": "src/_pytest/_code/code.py",
+        "hit": false,
+        "latencyMs": 138.9887
+      },
+      {
+        "id": "pytest-dev__pytest-5809",
+        "status": "completed",
+        "file": "src/_pytest/pastebin.py",
+        "hit": true,
+        "latencyMs": 148.9294
+      },
+      {
+        "id": "pytest-dev__pytest-5840",
+        "status": "completed",
+        "file": "src/_pytest/pathlib.py",
+        "hit": true,
+        "latencyMs": 137.8778000000001
+      }
+    ]
+  },
+  "savedOpenAIComparison": {
+    "model": "gpt-6-astra",
+    "tasks": 1,
+    "rows": [
+      {
+        "id": "pytest-dev__pytest-5262",
+        "jev": {
+          "hit": true,
+          "latencyMs": 389
+        },
+        "openai": {
+          "hit": true,
+          "latencyMs": 4224
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "mode": "full",
+  "total": 40,
+  "manifestHash": "492fa53636f30122afffa0d6a7b43ba7c2d5454460d462a8b994ce75e6f7f949",
+  "metric": "top-one changed-production-file overlap; not patch correctness",
+  "providers": {
+    "jev": {
+      "hits": 15,
+      "denominator": 40,
+      "accuracy": 0.375,
+      "validResponses": 40,
+      "statusCounts": {
+        "ok": 40
+      },
+      "successfulLatencyMs": {
+        "mean": 185.67820250000005,
+        "median": 162.6662499999984,
+        "p95": 262.4725
+      }
+    },
+    "openai": {
+      "hits": 17,
+      "denominator": 40,
+      "accuracy": 0.425,
+      "validResponses": 40,
+      "statusCounts": {
+        "ok": 40
+      },
+      "successfulLatencyMs": {
+        "mean": 2918.3885525,
+        "median": 2601.4916500000036,
+        "p95": 4522.482000000004
+      }
+    }
+  },
+  "pairedLatency": {
+    "count": 40,
+    "openaiOverJevRatioOfMeans": 15.717453708654892
+  }
+}

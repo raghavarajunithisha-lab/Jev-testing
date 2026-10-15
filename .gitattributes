@@ -1,0 +1,6 @@
+# Keep frozen runner bytes identical across Windows/Linux checkouts.
+*.mjs -text
+*.json -text
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

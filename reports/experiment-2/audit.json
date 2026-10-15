@@ -1,0 +1,576 @@
+[
+  {
+    "id": "matplotlib__matplotlib-23987",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 240,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-23562",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 239,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-17087",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 856,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-13315",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 846,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "scikit-learn__scikit-learn-10297",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 230,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-24066",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 815,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-10924",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 814,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-13028",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 836,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/db/models/sql/query.py",
+        "django/db/models/query.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "astropy__astropy-14182",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 493,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "astropy/io/ascii/core.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-13773",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 607,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-8435",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 182,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-20154",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 746,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "sympy/utilities/iterables.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-15213",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 851,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-8713",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 176,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-7738",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 182,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-13895",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 608,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-8506",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 182,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "astropy__astropy-14365",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 498,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-18835",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 721,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pydata__xarray-3364",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 77,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pytest-dev__pytest-5692",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 65,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "astropy__astropy-7746",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 391,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "astropy/wcs/wcs.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-13448",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 845,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/db/models/query.py",
+        "django/db/models/sql/compiler.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-24334",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 250,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-16792",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 683,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-10325",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 174,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-12308",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 824,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sphinx-doc__sphinx-10451",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 174,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-13590",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 846,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [
+        "django/db/models/sql/query.py"
+      ],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-16527",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 857,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-12497",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 821,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pylint-dev__pylint-7080",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 183,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-10914",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 814,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-23476",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 239,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "sympy__sympy-15011",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 678,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-16229",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 858,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-25079",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 245,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "pylint-dev__pylint-5859",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 140,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "matplotlib__matplotlib-22711",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 254,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": true,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  },
+  {
+    "id": "django__django-13220",
+    "partition": "full",
+    "status": "ready",
+    "sourceFiles": 845,
+    "candidateAvailability": true,
+    "hasReferenceCandidate": false,
+    "labelCount": 1,
+    "clues": {
+      "candidatePathMentions": [],
+      "explicitAnswerLanguage": false,
+      "patchInIssue": false
+    }
+  }
+]

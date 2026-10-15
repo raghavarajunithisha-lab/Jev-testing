@@ -1,0 +1,1809 @@
+{
+  "experiment": 3,
+  "manifestHash": "021b9c967012d570bdc2a6e47d4ddb9530c9cc04c20a31050e7780dd3e14454c",
+  "startedAt": "2026-10-15T07:42:28.579Z",
+  "completedAt": "2026-10-15T07:44:39.797Z",
+  "metric": "top-one changed-production-file overlap; not patch correctness",
+  "rows": [
+    {
+      "id": "pallets__flask-4992",
+      "repo": "pallets/flask",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "src/flask/config.py",
+        "hit": true,
+        "latencyMs": 463.49859999999995,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5252,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "src/flask/config.py",
+        "hit": true,
+        "latencyMs": 3696.5213,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4169,
+          "completion_tokens": 12,
+          "total_tokens": 4181,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4166,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "psf__requests-1963",
+      "repo": "psf/requests",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "requests/sessions.py",
+        "hit": true,
+        "latencyMs": 420.10279999999966,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5163,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "requests/sessions.py",
+        "hit": true,
+        "latencyMs": 2801.6231,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4071,
+          "completion_tokens": 12,
+          "total_tokens": 4083,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4068,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "matplotlib__matplotlib-23964",
+      "repo": "matplotlib/matplotlib",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "lib/matplotlib/backends/backend_ps.py",
+        "hit": true,
+        "latencyMs": 199.42199999999957,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 6471,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "lib/matplotlib/backends/backend_ps.py",
+        "hit": true,
+        "latencyMs": 2383.085,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 5220,
+          "completion_tokens": 12,
+          "total_tokens": 5232,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 5217,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14983",
+      "repo": "scikit-learn/scikit-learn",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sklearn/model_selection/_split.py",
+        "hit": true,
+        "latencyMs": 405.0541000000012,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5012,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sklearn/model_selection/_split.py",
+        "hit": true,
+        "latencyMs": 2576.2205999999987,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4016,
+          "completion_tokens": 12,
+          "total_tokens": 4028,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4013,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-18057",
+      "repo": "sympy/sympy",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/core/expr.py",
+        "hit": true,
+        "latencyMs": 195.5687999999991,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5786,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/core/expr.py",
+        "hit": true,
+        "latencyMs": 1757.1040999999987,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4613,
+          "completion_tokens": 12,
+          "total_tokens": 4625,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4610,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-21847",
+      "repo": "sympy/sympy",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/polys/monomials.py",
+        "hit": true,
+        "latencyMs": 189.40550000000076,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 6094,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/polys/monomials.py",
+        "hit": true,
+        "latencyMs": 1647.2940000000017,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 5015,
+          "completion_tokens": 12,
+          "total_tokens": 5027,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 5012,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "matplotlib__matplotlib-18869",
+      "repo": "matplotlib/matplotlib",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "lib/matplotlib/figure.py",
+        "hit": false,
+        "latencyMs": 197.34130000000005,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5579,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "lib/matplotlib/figure.py",
+        "hit": false,
+        "latencyMs": 5132.6194,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4410,
+          "completion_tokens": 32,
+          "total_tokens": 4442,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4407,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 14,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-15498",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/views/static.py",
+        "hit": true,
+        "latencyMs": 708.9506999999976,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4303,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/views/static.py",
+        "hit": true,
+        "latencyMs": 4914.1889999999985,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3393,
+          "completion_tokens": 81,
+          "total_tokens": 3474,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3390,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 63,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-24213",
+      "repo": "sympy/sympy",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/physics/units/unitsystem.py",
+        "hit": true,
+        "latencyMs": 138.78659999999945,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5287,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/physics/units/unitsystem.py",
+        "hit": true,
+        "latencyMs": 4065.934000000001,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4224,
+          "completion_tokens": 12,
+          "total_tokens": 4236,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4221,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-18087",
+      "repo": "sympy/sympy",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/simplify/trigsimp.py",
+        "hit": false,
+        "latencyMs": 360.37089999999444,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5615,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/simplify/fu.py",
+        "hit": false,
+        "latencyMs": 10449.915000000005,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4523,
+          "completion_tokens": 251,
+          "total_tokens": 4774,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4520,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 233,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "pytest-dev__pytest-5227",
+      "repo": "pytest-dev/pytest",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "src/_pytest/logging.py",
+        "hit": true,
+        "latencyMs": 189.42580000000453,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5351,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "src/_pytest/logging.py",
+        "hit": true,
+        "latencyMs": 2338.284700000004,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4252,
+          "completion_tokens": 12,
+          "total_tokens": 4264,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4249,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-14238",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/fields/__init__.py",
+        "hit": true,
+        "latencyMs": 389.29439999999886,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5531,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/fields/__init__.py",
+        "hit": true,
+        "latencyMs": 2085.3355999999985,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4452,
+          "completion_tokens": 12,
+          "total_tokens": 4464,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4449,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-17139",
+      "repo": "sympy/sympy",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/simplify/fu.py",
+        "hit": true,
+        "latencyMs": 180.2655999999988,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 6422,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/simplify/fu.py",
+        "hit": true,
+        "latencyMs": 1871.347099999999,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 5164,
+          "completion_tokens": 12,
+          "total_tokens": 5176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 5161,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "pylint-dev__pylint-7228",
+      "repo": "pylint-dev/pylint",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "pylint/config/arguments_manager.py",
+        "hit": false,
+        "latencyMs": 313.2554000000018,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 6380,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "pylint/config/arguments_manager.py",
+        "hit": false,
+        "latencyMs": 1998.0296999999991,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 5166,
+          "completion_tokens": 12,
+          "total_tokens": 5178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 5163,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-12915",
+      "repo": "django/django",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/contrib/staticfiles/handlers.py",
+        "hit": true,
+        "latencyMs": 171.79239999999845,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4874,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/contrib/staticfiles/handlers.py",
+        "hit": true,
+        "latencyMs": 2570.983500000002,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3909,
+          "completion_tokens": 12,
+          "total_tokens": 3921,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3906,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-16046",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/utils/numberformat.py",
+        "hit": true,
+        "latencyMs": 545.5051999999996,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4896,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/utils/numberformat.py",
+        "hit": true,
+        "latencyMs": 2478.1834000000017,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3960,
+          "completion_tokens": 12,
+          "total_tokens": 3972,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3957,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "scikit-learn__scikit-learn-14087",
+      "repo": "scikit-learn/scikit-learn",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sklearn/linear_model/logistic.py",
+        "hit": true,
+        "latencyMs": 172.02339999999822,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5496,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sklearn/linear_model/logistic.py",
+        "hit": true,
+        "latencyMs": 2937.5416999999943,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4447,
+          "completion_tokens": 12,
+          "total_tokens": 4459,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4444,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-12983",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/utils/text.py",
+        "hit": true,
+        "latencyMs": 210.67659999999887,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4501,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/utils/text.py",
+        "hit": true,
+        "latencyMs": 2452.3741999999984,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3527,
+          "completion_tokens": 12,
+          "total_tokens": 3539,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3524,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-11742",
+      "repo": "django/django",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/fields/__init__.py",
+        "hit": true,
+        "latencyMs": 144.5272000000041,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4640,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/fields/__init__.py",
+        "hit": true,
+        "latencyMs": 2502.8277000000016,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3533,
+          "completion_tokens": 12,
+          "total_tokens": 3545,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3530,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-19487",
+      "repo": "sympy/sympy",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/functions/elementary/complexes.py",
+        "hit": true,
+        "latencyMs": 189.43510000000242,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5916,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/functions/elementary/complexes.py",
+        "hit": true,
+        "latencyMs": 2621.435599999997,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4801,
+          "completion_tokens": 12,
+          "total_tokens": 4813,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4798,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-22840",
+      "repo": "sympy/sympy",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/simplify/cse_main.py",
+        "hit": true,
+        "latencyMs": 150.05520000000251,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 7938,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/simplify/cse_main.py",
+        "hit": true,
+        "latencyMs": 2087.766300000003,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 6512,
+          "completion_tokens": 12,
+          "total_tokens": 6524,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 6509,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-17655",
+      "repo": "sympy/sympy",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/geometry/point.py",
+        "hit": true,
+        "latencyMs": 389.10809999999765,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 6428,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/geometry/point.py",
+        "hit": true,
+        "latencyMs": 1955.594499999992,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 5076,
+          "completion_tokens": 12,
+          "total_tokens": 5088,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 5073,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sphinx-doc__sphinx-8474",
+      "repo": "sphinx-doc/sphinx",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sphinx/domains/std.py",
+        "hit": true,
+        "latencyMs": 160.31999999999243,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5122,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sphinx/domains/std.py",
+        "hit": true,
+        "latencyMs": 1860.323000000004,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4069,
+          "completion_tokens": 12,
+          "total_tokens": 4081,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4066,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-20322",
+      "repo": "sympy/sympy",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/simplify/simplify.py",
+        "hit": false,
+        "latencyMs": 179.1244000000006,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5926,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/simplify/simplify.py",
+        "hit": false,
+        "latencyMs": 1988.8541000000114,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4791,
+          "completion_tokens": 12,
+          "total_tokens": 4803,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4788,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-12470",
+      "repo": "django/django",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/sql/compiler.py",
+        "hit": true,
+        "latencyMs": 167.44109999999637,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4683,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/sql/compiler.py",
+        "hit": true,
+        "latencyMs": 2624.380999999994,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3649,
+          "completion_tokens": 12,
+          "total_tokens": 3661,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3646,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "pytest-dev__pytest-8906",
+      "repo": "pytest-dev/pytest",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "src/_pytest/outcomes.py",
+        "hit": false,
+        "latencyMs": 192.69980000000214,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5592,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "src/_pytest/python.py",
+        "hit": true,
+        "latencyMs": 4980.204200000007,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4349,
+          "completion_tokens": 31,
+          "total_tokens": 4380,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4346,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 13,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "scikit-learn__scikit-learn-11281",
+      "repo": "scikit-learn/scikit-learn",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sklearn/mixture/base.py",
+        "hit": true,
+        "latencyMs": 149.13180000000284,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5192,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sklearn/mixture/base.py",
+        "hit": true,
+        "latencyMs": 3379.2833999999857,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4095,
+          "completion_tokens": 12,
+          "total_tokens": 4107,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4092,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-14667",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/sql/query.py",
+        "hit": true,
+        "latencyMs": 197.84350000000268,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4754,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/sql/query.py",
+        "hit": true,
+        "latencyMs": 2688.916499999992,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3797,
+          "completion_tokens": 12,
+          "total_tokens": 3809,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3794,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-21627",
+      "repo": "sympy/sympy",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/functions/elementary/hyperbolic.py",
+        "hit": false,
+        "latencyMs": 135.556700000001,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5460,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/functions/elementary/hyperbolic.py",
+        "hit": false,
+        "latencyMs": 2123.392200000002,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4270,
+          "completion_tokens": 12,
+          "total_tokens": 4282,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4267,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-16910",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/sql/compiler.py",
+        "hit": false,
+        "latencyMs": 175.33920000000217,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5234,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/sql/compiler.py",
+        "hit": false,
+        "latencyMs": 1886.1720999999961,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4094,
+          "completion_tokens": 12,
+          "total_tokens": 4106,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4091,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "matplotlib__matplotlib-26011",
+      "repo": "matplotlib/matplotlib",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "lib/matplotlib/axes/_base.py",
+        "hit": false,
+        "latencyMs": 134.9262000000017,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5519,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "lib/matplotlib/axis.py",
+        "hit": true,
+        "latencyMs": 2256.280799999993,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4445,
+          "completion_tokens": 32,
+          "total_tokens": 4477,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4442,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 14,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-14016",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/sql/query.py",
+        "hit": false,
+        "latencyMs": 331.92819999999483,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5216,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/sql/query.py",
+        "hit": false,
+        "latencyMs": 2941.2267999999895,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4079,
+          "completion_tokens": 50,
+          "total_tokens": 4129,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4076,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 32,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "pytest-dev__pytest-7220",
+      "repo": "pytest-dev/pytest",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "src/_pytest/assertion/rewrite.py",
+        "hit": false,
+        "latencyMs": 144.15899999999965,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 6021,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "src/_pytest/main.py",
+        "hit": false,
+        "latencyMs": 4675.925300000003,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4672,
+          "completion_tokens": 79,
+          "total_tokens": 4751,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4669,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 61,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "scikit-learn__scikit-learn-15535",
+      "repo": "scikit-learn/scikit-learn",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sklearn/metrics/cluster/_supervised.py",
+        "hit": true,
+        "latencyMs": 737.7967999999964,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4966,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sklearn/metrics/cluster/_supervised.py",
+        "hit": true,
+        "latencyMs": 2760.073399999994,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3972,
+          "completion_tokens": 12,
+          "total_tokens": 3984,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3969,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-21055",
+      "repo": "sympy/sympy",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": false,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/functions/elementary/complexes.py",
+        "hit": false,
+        "latencyMs": 145.12290000000212,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5726,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/functions/elementary/complexes.py",
+        "hit": false,
+        "latencyMs": 2790.303899999999,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4584,
+          "completion_tokens": 29,
+          "total_tokens": 4613,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4581,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 11,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "sympy__sympy-18532",
+      "repo": "sympy/sympy",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "sympy/core/basic.py",
+        "hit": true,
+        "latencyMs": 406.5966000000044,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5578,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "sympy/core/basic.py",
+        "hit": true,
+        "latencyMs": 2049.9910999999993,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4440,
+          "completion_tokens": 12,
+          "total_tokens": 4452,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4437,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-15789",
+      "repo": "django/django",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/utils/html.py",
+        "hit": true,
+        "latencyMs": 184.29000000000815,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4897,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/utils/html.py",
+        "hit": true,
+        "latencyMs": 2382.865399999995,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3934,
+          "completion_tokens": 12,
+          "total_tokens": 3946,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3931,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-16139",
+      "repo": "django/django",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/contrib/auth/forms.py",
+        "hit": true,
+        "latencyMs": 558.0524000000005,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5201,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/contrib/auth/forms.py",
+        "hit": true,
+        "latencyMs": 2376.307400000005,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4015,
+          "completion_tokens": 12,
+          "total_tokens": 4027,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4012,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "django__django-13964",
+      "repo": "django/django",
+      "order": [
+        "jev",
+        "openai"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "django/db/models/base.py",
+        "hit": true,
+        "latencyMs": 156.94079999999667,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 4892,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "django/db/models/base.py",
+        "hit": true,
+        "latencyMs": 2424.946200000006,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 3890,
+          "completion_tokens": 12,
+          "total_tokens": 3902,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 3887,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    },
+    {
+      "id": "psf__requests-2148",
+      "repo": "psf/requests",
+      "order": [
+        "openai",
+        "jev"
+      ],
+      "referenceCandidateAvailable": true,
+      "jev": {
+        "status": "ok",
+        "file": "requests/packages/urllib3/response.py",
+        "hit": false,
+        "latencyMs": 325.6613999999827,
+        "returnedModel": "jev-1.13.0",
+        "usage": {
+          "input_tokens": 5196,
+          "output_tokens": 58
+        },
+        "cost": null
+      },
+      "openai": {
+        "status": "ok",
+        "file": "requests/packages/urllib3/response.py",
+        "hit": false,
+        "latencyMs": 5350.039299999989,
+        "returnedModel": "gpt-6-astra",
+        "usage": {
+          "prompt_tokens": 4025,
+          "completion_tokens": 126,
+          "total_tokens": 4151,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4022,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 108,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "cost": null
+      }
+    }
+  ]
+}

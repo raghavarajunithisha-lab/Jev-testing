@@ -1,0 +1,14 @@
+{
+  "name": "jev-localization-experiments",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node tools/verify-project.mjs",
+    "check:publication": "node tools/check-publication.mjs",
+    "experiment1:check": "node experiment-1/pytest-screen/run.mjs",
+    "experiment2:dry": "node experiment-2/bench.mjs run --dry-run",
+    "experiment3:dry": "node experiment-3/bench.mjs run --dry-run"
+  }
+}
